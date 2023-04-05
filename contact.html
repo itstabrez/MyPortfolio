@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lilita+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lily+Script+One&display=swap"
+        rel="stylesheet">
+
+</head>
+<style>
+    body {
+        background-color: rgb(189, 211, 233);
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Me</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Projects
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://itstabrez.github.io/FinalCss/" target="_blank">A
+                                    F
+                                    ENTERPRISES</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://itstabrez.github.io/Web-Development-/portfolio.html"
+                                    target="_blank">Portfolio Using HTML</a></li>
+                            <li><a class="dropdown-item" href="https://itstabrez.github.io/Web-Development-/form.html"
+                                    target="_blank">MACET</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">My Friend Projects</a></li>
+                            <li><a class="dropdown-item" href="https://haiderr-ali.github.io/tindog-project/"
+                                    target="_blank">tindog</a></li>
+                            <li><a class="dropdown-item" href="https://haiderr-ali.github.io/haider-ali-newwebsite/"
+                                    target="_blank">Portfolio</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactme">Contact Me</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <section id="contactme">
+        <div class="container my-4">
+            <h2>Contact Me</h2>
+            <form action="backend.php">
+                <div class="formgroup">
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput"
+                            placeholder="Enter your name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="formGroupExampleInput2"
+                            placeholder="Enter your Email Id">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput3" class="form-label">Mobile No.</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="Enter your mobile no.">
+                      </div>
+                      <div class="mb-3">
+                        <div>
+                        <label for="formGroupExampleInput4" class="form-label">Any Comments</label>
+                    </div>
+                        <textarea name="comments" id="formGroupExampleInput4" cols="30" rows="10" placeholder="Enter your comments"></textarea>
+                      </div>
+                    <button class="btn btn-success">SUBMIT</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+    <footer>
+        <div class="container text-center">
+            <span class="text-body-secondary">Copyright &copy; tabrezportfolio.com All right reserved !</span>
+        </div>
+    </footer>
+</body>
+
+</html>
