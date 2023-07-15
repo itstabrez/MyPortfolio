@@ -50,6 +50,57 @@
         margin: 5px 30px;
     }
 
+    /* PROJECTS */
+    .img-thumbnail {
+        max-width: 85%;
+        height: auto;
+    }
+
+    .first {
+        text-align: center;
+        padding-bottom: 16px;
+        transition: all 500ms ease-in-out;
+    }
+
+    .first:hover {
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .first #img-thumbnail {
+        overflow: hidden;
+    }
+
+    .first img {
+        transition: all 500ms ease-in-out;
+    }
+
+    .first:hover img {
+        transform: scale(1.1);
+    }
+
+    .first {
+        text-align: center;
+        padding-bottom: 16px;
+        transition: all 500ms ease-in-out;
+    }
+
+    .first:hover {
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .first #img-thumbnail {
+        overflow: hidden;
+    }
+
+    #first img {
+        transition: all 500ms ease-in-out;
+    }
+
+    #first:hover img {
+        transform: scale(1.2);
+    }
+
+
     /* UTILITIES */
     h1 {
         margin: 20px;
@@ -229,18 +280,35 @@
     <div id="projects-section" class="text-center mt-4 mb-4"><img class="img-cont" src="img/project.jpg" alt=""></div>
     <section id="projects">
         <div class="items2 d-flex justify-content-center align-items-center m-2 text-center flex-wrap">
-            <div class="col-lg-4">
+            <div class="first col-lg-4">
+                <img src="img/tic.png" alt="" class="img-thumbnail">
+                <h2 class="fw-normal mt-2">Tic Tac Toe</h2>
+                <p>Tic Tac Toe game using HTML, CSS and JAVASCRIPT</p>
+                <p><a class="btn btn-secondary"
+                        href="https://itstabrez.github.io/Webdev-Projects/Tic%20Tac/index.html">View »</a>
+                </p>
+            </div>
+            <div class="first col-lg-4">
+                <img src="img/Drum.png" alt="" class="img-thumbnail">
+                <h2 class="fw-normal mt-2">Virtual Drum </h2>
+                <p>Virtual Drum website using HTML, CSS and JAVASCRIPT</p>
+                <p><a class="btn btn-secondary"
+                        href="https://itstabrez.github.io/Webdev-Projects/Drum/index.html">View»</a>
+                </p>
+            </div>
+            <div class="first col-lg-4">
+                <img src="img/Eshop.png" alt="" class="img-thumbnail">
+                <h2 class="fw-normal mt-2">E-shop Frontend Design</h2>
+                <p>An online E-commerce website using HTML & CSS only</p>
+                <p><a class="btn btn-secondary"
+                        href="https://itstabrez.github.io/Webdev-Projects/Drum/index.html">View»</a>
+                </p>
+            </div>
+            <div class="first col-lg-4">
                 <img src="img/2.png" alt="" class="img-thumbnail">
                 <h2 class="fw-normal mt-2">A F ENTERPRISES</h2>
                 <p>Front-end design using only HTML and CSS.</p>
                 <p><a class="btn btn-secondary" href="https://itstabrez.github.io/FinalCss/">View »</a></p>
-            </div>
-            <div class="col-lg-4">
-                <img src="img/1.png" alt="" class="img-thumbnail">
-                <h2 class="fw-normal mt-2">MACET</h2>
-                <p>Website clone using only HTML.</p>
-                <p><a class="btn btn-secondary" href="https://itstabrez.github.io/Web-Development-/form.html">View »</a>
-                </p>
             </div>
         </div>
     </section>
